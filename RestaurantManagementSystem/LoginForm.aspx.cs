@@ -19,7 +19,7 @@ namespace RestaurantManagementSystem
         protected void BtnLogin_click(object sender, EventArgs e)
         {
             string _email = txtBoxEmail.Text;
-            string _pwd = txtPassword.Text;
+            string _pwd = txtBoxPassword.Text;
 
             // checks if the email and password are correct
             if (string.Compare(_email, email) == 0 && string.Compare(_pwd, password) == 0)
